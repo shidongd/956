@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- 背景选择器 -->
+        <!-- 当我鼠标按下的时候 -->
+        <item android:state_pressed="true" android:drawable="@drawable/tabbar_icon_lis_n"/>
+        <!-- 当鼠标选中的时候 -->
+        <item android:state_checked="true" android:drawable="@drawable/tabbar_icon_lis_s"/>
+        <!-- 当鼠标获取到焦点 -->
+        <item android:state_focused="true" android:drawable="@drawable/tabbar_icon_lis_n"/>
+        <item android:drawable="@drawable/tabbar_icon_lis_n"/>
+
+
+    </selector>

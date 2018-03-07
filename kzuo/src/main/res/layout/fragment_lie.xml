@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kao.fragment.LieFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="列表界面"
+        android:gravity="center"
+        />
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ReView"
+    ></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KaoShi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home" >亲子</string>
+    <string name="hot" >故事</string>
+</resources>

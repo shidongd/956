@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kao.MainActivity">
+
+<RadioGroup
+    android:id="@+id/radio"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:weightSum="2"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal"
+    >
+    <RadioButton
+        android:id="@+id/butt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"
+        android:text="列表"
+        android:gravity="center"
+        android:textSize="30dp"
+        />
+    <RadioButton
+        android:id="@+id/butt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"
+        android:text="收藏"
+        android:gravity="center"
+        android:textSize="30dp"
+        />
+</RadioGroup>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Fran"
+    android:layout_above="@+id/radio"
+    ></FrameLayout>
+</RelativeLayout>
